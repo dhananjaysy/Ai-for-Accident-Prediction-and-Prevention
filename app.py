@@ -65,7 +65,6 @@ model, encoders, le_y = load_model()
 # ── Sidebar ──────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.image("https://img.icons8.com/fluency/96/car-accident.png", width=80)
-    st.markdown("## 🚨 RAKSHAK AI")
     st.markdown("*Road Accident Prediction & Prevention System*")
     st.markdown("---")
     st.markdown("**Dataset Stats**")
@@ -74,9 +73,9 @@ with st.sidebar:
     st.metric("Years", f"{df['Year'].min()} – {df['Year'].max()}")
     st.markdown("---")
     st.markdown("**Built with**")
-    st.markdown("🐍 Python · Scikit-learn · Streamlit · Plotly")
+    st.markdown(" Python · Scikit-learn · Streamlit · Plotly")
     st.markdown("---")
-    st.markdown("*Tier 3 College ML Project*", help="India road accident dataset · 3000 records")
+
 
 # ── Header ───────────────────────────────────────────────────────────────────
 st.markdown('<div class="main-header">🚨 Road Accident Prediction & Prevention</div>', unsafe_allow_html=True)
